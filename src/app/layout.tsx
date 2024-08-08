@@ -4,7 +4,7 @@ import "./globals.css";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Navbar from "@/Components/Common/Navbar";
-import cover from "@/Images/meta-image.webp"
+import WhatsappButton from "@/Components/Common/whatsappFloat";
 
 
 
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Glintwise | Doorstep Car Wash in Chennai at just ₹25",
   description: "Glintwise provides doorstep car wash services in Chennai for just 25 rupees per day. Experience a professional, eco-friendly clean at your convenience, without stepping out of your home or office.",
   openGraph: {
-    images: "/images/meta_image.webp",
+    images: "/Images/meta_image.webp",
   },
 };
 
@@ -32,6 +32,7 @@ export default function RootLayout({
       <body className={PoppinsFont.className}>
       <Navbar />
         {children}
+        <WhatsappButton/>
         </body>
       
     </html>
