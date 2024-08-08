@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Glintwise | Doorstep Car Wash in Chennai at just ₹25",
   description: "Glintwise provides doorstep car wash services in Chennai for just 25 rupees per day. Experience a professional, eco-friendly clean at your convenience, without stepping out of your home or office.",
   openGraph: {
-    images: "/images/meta_image.webp",
+    images: "/images/meta-image.webp",
   },
 };
 
