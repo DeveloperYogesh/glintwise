@@ -33,7 +33,7 @@ const AppointmentContainer: React.FC = () => {
     const formattedStartDate = startDate?.format("YYYY-MM-DD") || "";
     const formattedEndDate = endDate?.format("YYYY-MM-DD") || "";
     const message = `Location: ${location}%0AStart Date: ${formattedStartDate}%0AEnd Date: ${formattedEndDate}`;
-    const whatsappURL = `https://wa.me/7010477407?text=${message}`;
+    const whatsappURL = `https://wa.me/8668187362?text=${message}`;
     window.open(whatsappURL, "_blank");
   };
 

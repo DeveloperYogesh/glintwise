@@ -79,9 +79,9 @@ const Navbar = () => {
             <p>Blog</p>
             <p>Why choose us</p>
           </div>
-          <Button className="p-2 w-32 rounded-lg text-white text-sm bg-blue-500">
+          <a className="p-2 w-32 rounded-lg text-white text-sm bg-blue-500" href="https://api.whatsapp.com/send?phone=8668187362&text=I%20need%20doorstep%20car%20wash" title="i need doorstep car wash" target="_blank">
             Book watch
-          </Button>
+          </a>
         </motion.div>
       )}
     </>
